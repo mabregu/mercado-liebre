@@ -17,5 +17,5 @@ app.get('/register', (req,res)=>{
 });
 
 app.listen(PORT, ()=>{
-    console.log('Servidor funcionando');
+    console.log('Servidor funcionando ' + PORT);
 });
